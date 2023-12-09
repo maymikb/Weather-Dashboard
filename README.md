@@ -2,10 +2,12 @@
 By Maymi Sarr
 
 ## Table of ContentsS
--[Purpose](#title)
--[Description](#description)
--[Link](#link)
--[Screenshot](#installation)
+- [Purpose](#title)
+- [Description](#description)
+- [Link](#link)
+- [Screenshot](#installation)
+
+
 
 
 ## Purpose
