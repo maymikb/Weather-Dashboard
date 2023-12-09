@@ -1,7 +1,7 @@
 # Weather-Dashboard
 By Maymi Sarr
 
-## Table of Contents
+## Table of ContentsS
 -[Purpose] (#title)
 -[Description] (#description)
 -[Link] (#link)
