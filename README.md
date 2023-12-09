@@ -2,10 +2,11 @@
 By Maymi Sarr
 
 ## Table of ContentsS
--[Purpose] (#title)
--[Description] (#description)
--[Link] (#link)
--[Screenshot] (#installation)
+-[Purpose](#title)
+-[Description](#description)
+-[Link](#link)
+-[Screenshot](#installation)
+
 
 ## Purpose
 The purpose of this app is to help plan the week ahead according to the weather, which can be especially useful for those who travel often.  
