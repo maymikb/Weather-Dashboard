@@ -1,8 +1,10 @@
 body{
+    font-family: sans-serif, Arial;
+    background-color: lightgrey;
 
 }
 
-h1{
+#header{
     color: white;
     background-color: blue;
     text-align: center;
@@ -10,4 +12,30 @@ h1{
     padding: 25px 0;
 
 
+}
+
+#search{
+    color: white;
+    background-color: blue;
+}
+
+ .container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 30%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 70%;
 }
