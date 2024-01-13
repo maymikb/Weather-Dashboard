@@ -17,6 +17,7 @@ body{
 #search{
     color: white;
     background-color: blue;
+    width: 100%;
 }
 
  .container{
@@ -38,4 +39,56 @@ body{
     flex-direction: column;
     padding: 30px;
     width: 70%;
+
 }
+
+/* HERE */
+ /* .day1{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 20%;
+    color: rgb(43, 43, 63); */
+    /* font-size: 10; //change font-size of header, not text */
+
+
+/* .day2{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 20%;
+    color: rgb(43, 43, 63); */
+    /* font-size: 10; //change font-size of header, not text */
+/* } */
+
+ /* .day3{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 20%;
+    color: rgb(43, 43, 63); */ 
+    /* font-size: 10; //change font-size of header, not text */
+/* } */
+
+/* .day4{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 20%;
+    color: rgb(43, 43, 63); */
+    /* font-size: 10; //change font-size of header, not text */
+/* } */
+
+/* .day5{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 20%;
+    color: rgb(43, 43, 63);
+    /* font-size: 10; //change font-size of header, not text */
+/* }   */ */
+
+
+
+
+/* use this id to change font-size? vs day1 make sure html ids match in html

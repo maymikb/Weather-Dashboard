@@ -16,18 +16,20 @@
 
 <body>
   <h1 id= "header" >Weather Dashboard</h1>
-
+  
 
   <!-- <div class="container"> -->
   <div class="container">
     <div class="left">
   
       <h2>Search for a City:</h2>
-        <textarea type="text" id="city" placeholder="Enter city name"></textarea>
+        <textarea type="text" id="city" placeholder="Enter city name">
+
+        </textarea>
+         <div class="city search">
       <button id="search" class="btn">Search</button>
 
-      <div class="city search">
-  
+    
       </div>
 
     </div>
@@ -35,7 +37,7 @@
       <div class="card" style="width: 100%;">
         <div class="card-header">
         
-          <h1 id="titleHeader"> Atlanta,(December 10th, 2023)</h1>
+          <h1 id="titleHeader"> Atlanta,(December 10th, 2023) </h1>
         </div>
         <ul class="list-group list-group-flush">
           <li id="temp" class="list-group-item">Temp</li> 
@@ -46,6 +48,107 @@
     </div>
 
 
+
+    <!-- HERE -->
+
+  <!-- HERE -->
+
+
+  </div>
+  <div class="container">
+    
+    <h3>5-Day Forecast:</h3>
+    <!-- <div></div> -->
+    
+  
+  <div class="day1">
+    <div class="weathercard" style="width: 80%;">
+      <div class="cardheader">
+      
+        <h1 id="Header">December 10th, 2023 <img src = "https://openweathermap.org/img/wn/10d@2x.png" ></h1>
+      </div>
+      <ul class="group list-group-flush">
+        <li id="temp" class="list-group-item">Temp</li> 
+        <li id="wind" class="list-group-item">Wind Speed</li>
+        <li id="humidity" class="list-group-item">Humidity</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="day2">
+    <div class="weathercard" style="width: 80%;">
+      <div class="cardheader">
+        <div class="icon"> 
+      
+          <!-- HERE IMG SOURCE -->
+      </div>
+        <h1 id="Header">December 10th, 2023 <img src = "https://openweathermap.org/img/wn/10d@2x.png" >
+        </h1>
+      </div>
+      <ul class="group list-group-flush">
+        <li id="temp" class="list-group-item">Temp</li> 
+        <li id="wind" class="list-group-item">Wind Speed</li>
+        <li id="humidity" class="list-group-item">Humidity</li>
+
+      </ul>
+    </div>
+  </div>
+  
+
+
+    
+
+</div>
+<div class="weathercard">
+  <div class="card" style="width: 80%;">
+    <div class="cardheader">
+    
+      <!-- HERE IS IT OKAY TO CHANGE HEADER TITLE? DO I NEED A NEW API SEPARATE FROM ONE USED FOR H1? -->
+      <h1 id="Header"> December 10th, 2023 <img src = "https://openweathermap.org/img/wn/10d@2x.png" ></h1>
+    </div>
+    <ul class="group list-group-flush">
+      <li id="temp" class="five-group-item">Temp</li> 
+      <li id="wind" class="five-group-item">Wind Speed</li>
+      <li id="humidity" class="five-group-item">Humidity</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+
+
+<div class="weathercard">
+  <div class="card" 
+   style="width: 80%;">
+    <div class="cardheader">
+    
+      <h1 id="Header"> December 10th, 2023 <img src = "https://openweathermap.org/img/wn/10d@2x.png" ></h1>
+    </div>
+    <ul class="group list-group-flush">
+      <li id="temp" class="list-group-item">Temp</li> 
+      <li id="wind" class="list-group-item">Wind Speed</li>
+      <li id="humidity" class="list-group-item">Humidity</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+
+
+<div class="weathercard">
+  <div class="card" style="width: 80%;">
+    <div class="cardheader">
+    
+      <h1 id="Header"> December 10th, 2023 <img src = "https://openweathermap.org/img/wn/10d@2x.png" ></h1>
+    </div>
+    <ul class="group list-group-flush">
+      <li id="temp" class="list-group-item">Temp</li> 
+      <li id="wind" class="list-group-item">Wind Speed</li>
+      <li id="humidity" class="list-group-item">Humidity</li>
+    </ul>
+  </div>
+</div>
 
 
   </div>
