@@ -26,6 +26,7 @@ With this weather tracking app, the user is able to see the current weather and 
 
 
 ## Link
+http://127.0.0.1:5500/index.html
 
 ## Screenshot
 ![](./W2WScreenshot.png)
