@@ -1,4 +1,5 @@
-# Weather-Dashboard
+# whatToWear
+weather-Dashboard 
 By Maymi Sarr
 
 ## Table of ContentsS
@@ -19,7 +20,13 @@ With this weather tracking app, the user is able to see the current weather and 
 
 
 ## Installation
+<div>day.js</div>
+<div>script.js</div>
+<div>OpenWeatherAPI</div>
+
 
 ## Link
 
 ## Screenshot
+![](./W2WScreenshot.png)
+

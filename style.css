@@ -1,40 +1,84 @@
-body{
+body {
     font-family: sans-serif, Arial;
-    background-color: lightgrey;
-
+    height: 100vh;
+    background-color: white;
 }
 
-#header{
+.flexbox {
+    display: flex;
+}
+
+.container-row {
+    flex-direction: green;
+}
+
+.container-column {
+    flex-direction: column;
+    border: 1px solid orange
+}
+
+.main-container {
+    border: 1px solid red;
+    height: calc(100% - 98px);
+}
+
+.search-history-element {
+    height: 40px;
+    background-color: grey;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+#header {
     color: white;
     background-color: blue;
     text-align: center;
-    justify-content: center; 
+    justify-content: center;
     padding: 25px 0;
-
+    margin: 0;
 
 }
 
-#search{
+#search {
     color: white;
     background-color: blue;
     width: 100%;
 }
 
- .container{
+.weathercard {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #090961;
+    color: white;
+    padding-left: 10px;
+}
+
+.weathercard img {
+    width: 65px;
+}
+
+.weathercard ul {
+    padding: 0;
+}
+
+.container {
     display: flex;
     flex-direction: row;
     background-color: white;
 
 }
 
-.left{
+.left {
     display: flex;
     flex-direction: column;
     padding: 30px;
     width: 30%;
 }
 
-.right{
+.right {
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -43,52 +87,51 @@ body{
 }
 
 /* HERE */
- /* .day1{
+.day1 {
     display: flex;
     flex-direction: column;
     padding: 30px;
     width: 20%;
-    color: rgb(43, 43, 63); */
+    color: rgb(43, 43, 63);
+    */
     /* font-size: 10; //change font-size of header, not text */
+}
 
-
-/* .day2{
+.day2 {
     display: flex;
     flex-direction: column;
     padding: 30px;
     width: 20%;
-    color: rgb(43, 43, 63); */
+    color: rgb(43, 43, 63);
+    */
     /* font-size: 10; //change font-size of header, not text */
-/* } */
+}
 
- /* .day3{
+.day3 {
     display: flex;
     flex-direction: column;
     padding: 30px;
     width: 20%;
-    color: rgb(43, 43, 63); */ 
+    color: rgb(43, 43, 63);
+    */
     /* font-size: 10; //change font-size of header, not text */
-/* } */
+}
 
-/* .day4{
+.day4 {
     display: flex;
     flex-direction: column;
     padding: 30px;
     width: 20%;
-    color: rgb(43, 43, 63); */
+    color: rgb(43, 43, 63);
+    */
     /* font-size: 10; //change font-size of header, not text */
-/* } */
+}
 
-/* .day5{
+.day5 {
     display: flex;
     flex-direction: column;
     padding: 30px;
     width: 20%;
     color: rgb(43, 43, 63);
     /* font-size: 10; //change font-size of header, not text */
-/* }   */ */
-
-
-
-
-/* use this id to change font-size? vs day1 make sure html ids match in html
+}
